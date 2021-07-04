@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorFAS">#C00202</color>
+    <color name="colorFAS2">#962B0E</color>
+    <color name="colorFAS3">#8E2103</color>
+    <color name="colorFAS4">#771C04</color>
+    <color name="colorFAS5">#AF0202</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorYello">#FDFFBC</color>
+    <color name="colorPink">#FFD4BC</color>
+    <color name="colorBlue">#E2F8FF</color>
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

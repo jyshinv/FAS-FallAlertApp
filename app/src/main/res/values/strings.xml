@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FAS2</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action">action</string>
+    <string name="set_phone_name_warning">01043637732</string>
+    <string name="ok">Ok</string>
+</resources>
+

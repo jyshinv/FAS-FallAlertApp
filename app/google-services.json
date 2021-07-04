@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "888164029037",
+    "firebase_url": "https://fas-imfine.firebaseio.com",
+    "project_id": "fas-imfine",
+    "storage_bucket": "fas-imfine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888164029037:android:5d4b315366268d25",
+        "android_client_info": {
+          "package_name": "com.s2d5.fas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888164029037-kdmecahu8677kcesk5h08q8ejlk3fuv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuiwTFVGdX-hmbUB7a12BQJ8ZbJb3pjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888164029037-kdmecahu8677kcesk5h08q8ejlk3fuv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888164029037:android:f6880dedf117b421",
+        "android_client_info": {
+          "package_name": "org.imfine.fas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888164029037-dlmllnns92hke3k4dl5rgsie2eog0kme.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.imfine.fas",
+            "certificate_hash": "11befc1dda83e7dfa5d4c4f5ba7e95e0f7592c63"
+          }
+        },
+        {
+          "client_id": "888164029037-kdmecahu8677kcesk5h08q8ejlk3fuv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuiwTFVGdX-hmbUB7a12BQJ8ZbJb3pjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888164029037-kdmecahu8677kcesk5h08q8ejlk3fuv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888164029037:android:c3431fd021392d54c4e564",
+        "android_client_info": {
+          "package_name": "org.imfine.fas2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888164029037-kdmecahu8677kcesk5h08q8ejlk3fuv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuiwTFVGdX-hmbUB7a12BQJ8ZbJb3pjyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888164029037-kdmecahu8677kcesk5h08q8ejlk3fuv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

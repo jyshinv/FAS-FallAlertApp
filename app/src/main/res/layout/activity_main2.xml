@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/last_x_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/last_y_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/last_x_value"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/last_z_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_y_value"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/x_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@id/last_z_value"/>
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/y_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/x_value"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/z_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/y_value"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/current_change_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/z_value"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="센서 : 센서값"
+        android:id="@+id/current_boundary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/current_change_amount"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_below="@id/current_boundary"
+        android:id="@+id/sensor_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서 리스트 확인"/>
+
+    <Button
+        android:id="@+id/sensor_list_btn"
+        android:layout_below="@+id/sensor_list"
+        android:text="센서값 보기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_below="@+id/sensor_list_btn"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/gyro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="센서값" />
+
+        <TextView
+            android:id="@+id/gyro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="센서값" />
+
+        <TextView
+            android:id="@+id/gyro3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="센서값" />
+
+
+        <TextView
+            android:id="@+id/acc_svm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="센서값" />
+
+        <TextView
+            android:id="@+id/av_svm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="센서값" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시간이 나옴"/>
+
+        <TextView
+            android:id="@+id/maxACC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="maxACC"/>
+
+        <TextView
+            android:id="@+id/maxAV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="maxAV"/>
+
+
+
+        <TextView
+            android:id="@+id/main2_fcm_tv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimary"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
